@@ -4,63 +4,68 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>CV_Iliukhina</title>
+		<link rel="stylesheet" href="CSS.css">
 	</head>
 	<body>
-		<header>
-			<h1>Anna Iliukhina</h1>
-				<ul>
-					<li ><b>e-mail:</b> an-na.ilyuhina@yandex.ru</li>
-					<li><b>tel.:</b> +7-953-747-51-86</li>
-				</ul>
-			<img src="my_photo.png" alt="Oops! Try again later!">
-		</header>
-			
-		<aside>
-			<p><b><i>Hard skills:</i></b></p>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JS</li>
-				<li>Git</li>
-			</ul>
-		</aside>
-		<ol>
-			<li> 
-				<p> About me:</p>
-				<p>I am a well-qualified specialist in the field of foreign languages, but now my main goal is to become a good IT-specialist. I have already taken an online course in web-development (see below), read several books on the topic and currently I am studying at RS School. I already posses necessary soft skills and language competences, learning abilities and professional qualities (like indulgence, diligence, quick mind, etc.), and I expect that with the abovementioned sources I will obtain necessary hard skills.<p>
-			</li>
-			<li> 
-				<p>Sample code bit:</p>
-				<pre><code>
-					function solution(number){ 
-						let numbers = [];
-						for (let i = 1; i &lt;= number; i++) {
-						  if (i % 3 === 0 || i % 5 === 0) { numbers.push(i) }
-						}
-						numbers = Array.from(new Set(numbers));
-						return numbers.reduce((sum, current) => sum + current, 0);
-					}</code></pre>
-				<p>More examples of my code can be found here: <a href="https://www.codewars.com/users/An-NaN" target="blank">Codewars</a></p>
-			</li>
-			<li> 
-				<p>Relevant work experience:</p>  <i>Will be completed</i></li>
-			<li> 
-				<p>Education:</p>
-				<p>Ryazan State University named after S. A. Esenin - <i>“A Teacher of English and German”</i>, 2015 (full-time).</p>
-				<p>Ryazan State University named after S. A. Esenin - <i>“A Translator/Interpreter”</i>, 2015 (full-time).</p>
-				<p>Udemy - <i>Complete Web Developer Course 2.0</i>, 2020 (online course).</p>
-			</li>
-			<li> 
-				<p>English level: C2 (proven by Cambridge CAE).</p>
-			</li>
-		</ol>
-		<details>
-			<summary>CAE 2018</summary>
-			<figure>
-				<img src="StatementOfResult.jpg" alt="Statement of Result (CAE)">
-				<figcaption>Statement of results</figcaption>
-			</figure>
-		</details>
+		<div id="frame">
+			<header>
+				<div id="info">
+					<h1>Anna Iliukhina</h1>
+					<ul id="contacts">
+						<li class="contacts"><b>e-mail:</b> an-na.ilyuhina@yandex.ru</li>
+						<li class="contacts"><b>tel.:</b> +7-953-747-51-86</li>
+					</ul>
+				</div>
+				<img id="photo" src="my_photo.png" alt="Oops! Try again later!">
+			</header>
+				<aside>
+					<p id="skills"><b><i>Hard skills:</i></b></p>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JS</li>
+						<li>Git</li>
+					</ul>
+				</aside>
+				<ol>
+					<li id="about"> 
+						<p class="sections"> About me:</p>
+						<p>I am a well-qualified specialist in the field of foreign languages, but now my main goal is to become a good IT-specialist. I have already taken a video course in web-development (see below), read several books on the topic, and currently I am studying at RS School to improve my knowledge. I already posses necessary soft skills and language competences, learning abilities and professional qualities (like indulgence, diligence, quick mind, etc.), and I expect that with the abovementioned sources I will obtain necessary hard skills.<p><hr/>
+					</li>
+					<li  id="sample"> 
+						<p class="sections">Sample code bit:</p>
+						<pre><code>
+function solution(number){ 
+	let numbers = [];
+	for (let i = 1; i &lt;= number; i++) {
+	  if (i % 3 === 0 || i % 5 === 0) { numbers.push(i) }
+	}
+	numbers = Array.from(new Set(numbers));
+	return numbers.reduce((sum, current) => sum + current, 0);
+}
+						</code></pre>
+						<p>More examples of my code can be found here: <a href="https://www.codewars.com/users/An-NaN" target="blank">Codewars</a></p>
+					</li><hr/>
+					<li> 
+						<p class="sections" id="experience">Relevant work experience:</p>  <p><i>Will be completed</i></p></li><hr/>
+					<li> 
+						<p class="sections" id="education">Education:</p>
+						<p>Ryazan State University named after S. A. Esenin - <i>“A Teacher of English and German”</i>, 2015 (full-time).</p>
+						<p>Ryazan State University named after S. A. Esenin - <i>“A Translator/Interpreter”</i>, 2015 (full-time).</p>
+						<p>Udemy - <i>Complete Web Developer Course 2.0</i>, 2020 (video course).</p>
+					</li><hr/>
+					<li> 
+						<p class="sections" id="english">English level:</p> <p>C2 (proven by Cambridge CAE).</p>
+					</li>
+				</ol>
+				<details>
+					<summary>CAE 2018</summary>
+					<figure>
+						<img id="CAE" src="StatementOfResult.jpg" alt="Statement of Result (CAE)">
+						<figcaption>Statement of results</figcaption>
+					</figure>
+				</details>
+		</div>
 	</body>
 </html>
 

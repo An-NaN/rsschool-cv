@@ -2,7 +2,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
-	background-color: #c571da;
+	background-color: #c5e8ed;
 	padding-top: 1em;
 	padding-left: 2em;
 	padding-bottom: 1em;
@@ -23,19 +23,33 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #E6E6FA;
-
 }
 
 aside {
 	width: 20%;
-	opacity: 0.8;
-	padding: 2px;
-	background-color: #8B008B;
+	background-color: #c571da;
+	float: left;
+	margin: auto;
+	padding-bottom: 1.5em;
 }
 
+#skills {
+	font-weight: bolder;
+	font-size: 1.1em;
+	text-align: center;
+}
 .sections {
 	font-style: italic;
 	font-weight: bolder;
 	font-size: 1.2em;
+	margin-left: 20px;
+}
 
+#about {
+	margin-right: 20px;
+	margin-left: 150px;
+}
+
+#CAE {
+	width: 50%;
 }
