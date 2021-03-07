@@ -1,0 +1,41 @@
+header {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	background-color: #c571da;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-bottom: 1em;
+}
+
+h1 {
+	margin-left: 1.1em;
+	margin-right: 1.2em;
+}
+
+#photo {
+	width: 7em;
+}
+
+#frame {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E6E6FA;
+
+}
+
+aside {
+	width: 20%;
+	opacity: 0.8;
+	padding: 2px;
+	background-color: #8B008B;
+}
+
+.sections {
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 1.2em;
+
+}
