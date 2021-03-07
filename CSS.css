@@ -53,3 +53,22 @@ aside {
 #CAE {
 	width: 50%;
 }
+
+footer {
+	display: flex;
+	flex-direction: row;
+	background-color: #c5e8ed;
+	padding: 1em;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo {
+	width: 100px;
+}
+
+#github {
+	border-radius: 50%;
+	width: 50px;
+}
