@@ -1,0 +1,67 @@
+header {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	background-color: #c5e8ed;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-bottom: 1em;
+}
+
+h1 {
+	margin-left: 1.1em;
+	margin-right: 1.2em;
+}
+
+#photo {
+	width: 7em;
+}
+
+#frame {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E6E6FA;
+}
+
+aside {
+	width: 20%;
+	background-color: #c571da;
+	float: right;
+	margin: 3%;
+	padding-bottom: 1.5em;
+}
+
+#skills {
+	text-align: center;
+}
+.sections {
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-left: 20px;
+}
+
+#CAE {
+	width: 50%;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	background-color: #c5e8ed;
+	padding: 1em;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo {
+	width: 100px;
+}
+
+#github {
+	border-radius: 50%;
+	width: 50px;
+}
